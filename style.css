@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #504749;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: "Roboto Mono", monospace;
+}
+
+#app {
+  width: 100%;
+}
+
+h1,
+p {
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 75px;
+}
+
+li.pick-one button {
+  background: none;
+  border: 2px solid #ffffff;
+  font-family: "Roboto Mono", monospace;
+  height: 355px;
+  width: 325px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+ 
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+li.pick-one button:hover {
+  border: 10px solid #ffffff;
+  font-size: 1.5rem;
+}
+
+li.pick-one img {
+  max-width: 250px;
+  max-height: 250px;
+  
+}
+
+#scores {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
